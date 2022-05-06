@@ -9,5 +9,4 @@ class Solution:
                 result.append(nums.index(x))
                 result.append(nums.index(valid,nums.index(x)+1))
                 break
-
         return result
