@@ -4,10 +4,8 @@ class Solution:
     def backspaceCompare(self, s: str, t: str) -> bool:
         s_list = list(s)
         t_list = list(t)
-
         while True:
             a = s_list.count('#')
-
             if  a != 0:
                 x = s_list.index('#')
                 if x == 0:
@@ -29,5 +27,4 @@ class Solution:
                     t_list.pop(x - 1)
             else:
                 break
-
         return s_list == t_list
