@@ -17,7 +17,6 @@ class Solution:
                 break
         while True:
             b = t_list.count('#')
-
             if b != 0:
                 x = t_list.index('#')
                 if x == 0:
